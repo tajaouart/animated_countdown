@@ -1,0 +1,32 @@
+name: example
+description: Show case for animated_countdown package.
+
+version: 1.0.0+1
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  animated_countdown:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+
+flutter:
+
+  uses-material-design: true
+
