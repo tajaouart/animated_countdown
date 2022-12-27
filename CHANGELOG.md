@@ -2,3 +2,8 @@
 
 Customize duration.
 Customize text style.
+
+## 0.0.2
+
+Added example code.
+

@@ -15,24 +15,18 @@ It is recommended to hide the widget once the countdown has finished.
 
 ## Usage
 
-to `/example` folder.
+
 
 ```dart
-import 'material.dart';
-
-Center(
-    child: CountDownWidget(
-      duration: myWidget.timerDuration,
-      onEnd: () {
-      setState(() {
-      displayTimer = false;
-      });
-      },
-    ),
-),
-
-
-
+final myWidget = CountDownWidget(
+  stepDuration: 3,
+  textStyle: const TextStyle(color: Colors.red),
+  maxTextSize: 100,
+  minTextSize: 10,
+  onEnd: () {
+    // do some job
+  },
+);
 
 ```
 

@@ -36,19 +36,15 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
+      appBar: AppBar(title: Text(widget.title)),
       body: Stack(
         children: [
           if (_displayCountDown)
             Positioned.fill(
               child: Center(
                 child: CountDownWidget(
-                  stepDuration: 5,
-                  maxTextSize: 500,
+                  stepDuration: 3,
+                  maxTextSize: 100,
                   onEnd: () {
                     setState(() {
                       _displayCountDown = false;
@@ -68,9 +64,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   _displayCountDown = true;
                 });
               },
-              tooltip: 'Increment',
+              tooltip: 'Start',
               child: const Icon(Icons.play_arrow_rounded),
-            ), // This trailing comma makes auto-formatting nicer for build methods.
+            ),
     );
   }
 }
