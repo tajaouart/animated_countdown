@@ -2,6 +2,9 @@
 
 A light widget to display a countdown animation.
 
+
+<img src="https://raw.githubusercontent.com/tajaouart/animated_countdown/main/countdown_demo.gif" height="600"/>
+
 ## Features
 
 You can customize the duration and the text style.
