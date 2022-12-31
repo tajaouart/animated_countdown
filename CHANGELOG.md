@@ -7,3 +7,11 @@ Customize text style.
 
 Added example code.
 
+
+## 0.0.3
+
+Added tests.
+Added documentation.
+
+
+

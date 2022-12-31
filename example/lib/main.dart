@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Positioned.fill(
               child: Center(
                 child: CountDownWidget(
-                  stepDuration: 3,
+                  totalDuration: 3,
                   maxTextSize: 100,
                   onEnd: () {
                     setState(() {
